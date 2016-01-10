@@ -11,6 +11,7 @@
 <div class="section-2-bg"></div>
 <div class="section-4-bg"></div>
 <div class="section-5-bg"></div>
+<div class="section-6-bg"></div>
 <img src="http://dc110.4shared.com/img/NNxUdssR/s7/13e8019ce58/Nike-Logo-American-Eyecare-Cen" alt="" class="nike-check"/>
 <div class="main-content">
   <section class="section-1">
@@ -77,11 +78,12 @@ keep your feet cool and comfortable.</h4>
     <div class="product-container">
     <div class="product-left-panel">
       <ul> PRODUCTS
-        <li>Shoes</li>
-        <li>Shorts</li>
-        <li>Shirts</li>
-        <li>Accessories</li>
-        <li>Jackets</li>
+        <li id="all-products" class="product-label all-label filter-selected">All</li>
+        <li id="shoes" class="product-label shoe-label">Shoes</li>
+        <li id="shorts" class="product-label short-label">Shorts</li>
+        <li id="shirts" class="product-label shirt-label">Shirts</li>
+        <li id="jackets" class="product-label jacket-label">Jackets</li>
+        <li id="accessory" class="product-label accessory-label">Accessories</li>
       </ul>
     </div>
     <div class="product-right-panel">
@@ -89,27 +91,102 @@ keep your feet cool and comfortable.</h4>
         <h5 class="text-top-left">Pegasus</h5>
         <img src="./assets/pegasus-shoe.png" alt="" class="shoe-right">
       </div>
-      <div class="product product-shirt"></div>
-      <div class="product product-short"></div>
-      <div class="product product-accessory"></div>
-      <div class="product product-jacket"></div>
+      <div class="product product-shirt">
+        <h5 class="text-top-right">Classic</h5>
+        <img src="./assets/nike-shirt-1.png" alt="" class="shoe-left">
+      </div>
+      <div class="product product-short">
+        <h5 class="text-top-left">Laser II</h5>
+        <img src="./assets/short-1.png" alt="" class="shoe-right">
+      </div>
+      <div class="product product-accessory">
+        <h5 class="text-top-left">Explore</h5>
+        <img src="./assets/access-1.png" alt="" class="shoe-right">
+      </div>
+      <div class="product product-jacket">
+        <h5 class="text-top-right">Wind</h5>
+        <img src="./assets/jacket-2.jpg" alt="" class="shoe-left">
+      </div>
       <div class="product product-shoe">
         <h5 class="text-top-right">Air Max</h5>
         <img src="./assets/airmax-shoe.png" alt="" class="shoe-left">
       </div>
-      <div class="product product-short"></div>
-      <div class="product product-accessory"></div>
-      <div class="product product-shoe"></div>
-      <div class="product product-shirt"></div>
-      <div class="product product-jacket"></div>
-      <div class="product product-short"></div>
-      <div class="product product-shirt"></div>
-      <div class="product product-accessory"></div>
-      <div class="product product-jacket"></div>
+      <div class="product product-short">
+        <h5 class="text-top-right">Dri-Fit</h5>
+        <img src="./assets/short-2.png" alt="" class="shoe-left">
+      </div>
+      <div class="product product-accessory">
+        <h5 class="text-top-left">Lion</h5>
+        <img src="./assets/access-2.png" alt="" class="shoe-right">
+      </div>
+      <div class="product product-shoe">
+        <h5 class="text-top-right">Lunartempo</h5>
+        <img src="./assets/lunar-shoe.png" alt="" class="shoe-left">
+      </div>
+      <div class="product product-shirt">
+        <h5 class="text-top-left">Golf Tee</h5>
+        <img src="./assets/nike-shirt-2.png" alt="" class="shoe-right">
+      </div>
+      <div class="product product-jacket">
+        <h5 class="text-top-left">Run</h5>
+        <img src="./assets/jacket-3.png" alt="" class="shoe-right">
+      </div>
+      <div class="product product-short">
+        <h5 class="text-top-right">Pro</h5>
+        <img src="./assets/short-3.png" alt="" class="shoe-left">
+      </div>
+      <div class="product product-shirt">
+        <h5 class="text-top-left">Guard</h5>
+        <img src="./assets/nike-shirt-3.png" alt="" class="shoe-right">
+      </div>
+      <div class="product product-accessory">
+        <h5 class="text-top-right">Sinch</h5>
+        <img src="./assets/access-3.png" alt="" class="shoe-left">
+      </div>
+      <div class="product product-jacket">
+        <h5 class="text-top-left">Winter</h5>
+        <img src="./assets/jacket-1.png" alt="" class="shoe-right">
+      </div>
     </div>
     </div>
   </section>
-  <section class="section-6"></section>
+  <section class="section-6">
+    <div class="footer-panel footer-1">
+      <ul>
+        <li>Gift Cards</li>
+        <li>Find a Store</li>
+        <li>Sign Up for Email</li>
+        <li>Join Nike+</li>
+      </ul>
+    </div>
+    <div class="footer-panel">
+      <ul> GET HELP
+        <li>Order Status</li>
+        <li>Shipping and Delivery</li>
+        <li>Returns</li>
+        <li>Payment Options</li>
+        <li>Contact Us</li>
+      </ul>
+    </div>
+    <div class="footer-panel">
+      <ul> ABOUT NIKE
+        <li>News</li>
+        <li>Careers</li>
+        <li>Investors</li>
+        <li>Sustainability</li>
+        <li>Nike Better World</li>
+        <li>CA Supply Chains Act</li>
+      </ul>
+    </div>
+    <div class="footer-panel footer-social">
+      <ul> SOCIAL
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </section>
   <section class="section-7"></section>
   <section class="section-8"></section>
   <section class="section-9"></section>
@@ -117,7 +194,7 @@ keep your feet cool and comfortable.</h4>
 
 
 
-
-
+<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+<script src="./js/main.js"></script>
   </body>
 </html>

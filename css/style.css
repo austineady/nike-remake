@@ -34,7 +34,7 @@ li {
 }
 
 .hero-text {
-  max-width: 250px;
+  max-width: 300px;
   height: 250px;
   position: absolute;
   margin-top: 100px;
@@ -44,7 +44,7 @@ li {
 
 .hero-text h1 {
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 45px;
 }
 
 .hero-text h3 {
@@ -97,6 +97,15 @@ li {
   width: 100%;
   height: 700px;
   top: 2000px;
+}
+
+.section-6-bg {
+  background-color: rgba(25, 25, 25, 1);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 300px;
+  top: 2700px;
 }
 
 .section-2 {
@@ -244,6 +253,10 @@ li {
   font-weight: 300;
 }
 
+.product-left-panel li {
+  cursor: pointer;
+}
+
 .product-right-panel {
   position: absolute;
   width: 1300px;
@@ -300,4 +313,74 @@ li {
   position: absolute;
   bottom: 5px;
   right: 5px;
+}
+
+.product-shirt {
+  background-color: rgba(34, 131, 246, 1);
+}
+
+.product-shoe {
+  background-color: rgba(254, 61, 80, 1);
+}
+
+.product-short {
+  background-color: rgba(244, 130, 68, 0);
+  border: 1px solid white;
+}
+
+.product-jacket {
+  background-color: rgba(93, 42, 85, 1);
+}
+
+.product-hidden {
+  display: none;
+}
+
+.filter-selected {
+  margin-left: 5px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.section-6 {
+  width: 100%;
+}
+
+.footer-panel {
+  display: inline-block;
+  width: 16%;
+  vertical-align: top;
+}
+
+.footer-panel ul {
+  font-weight: 300;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-panel ul li {
+  color: grey;
+  font-size: 15px;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.footer-1 ul li{
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.footer-1 ul li:hover {
+  font-weight: 400;
+  transition: 1s;
+}
+
+.footer-social {
+  width: 50%;
+  text-align: right;
 }
